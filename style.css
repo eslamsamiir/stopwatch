@@ -1,0 +1,40 @@
+html {
+  background-color: black;
+}
+body {
+  border-radius: 75px;
+  border: 10px black solid;
+  background-color: rgb(255, 255, 153);
+  padding-bottom: 60px;
+}
+p {
+  color: rgb(255, 255, 153);
+  font-family: 'Changa', sans-serif;
+  text-align: center;
+  font-size: 8em;
+  margin: 95px auto;
+  background-color: black;
+}
+button {
+  box-sizing: border-box;
+  border: 1px rgb(200, 200, 153) solid;
+  height: 40px;
+  width: 120px;
+  padding: 5px 5px 5px 5px;
+  font-size: 1.5em;
+  border-radius: 10px;
+  color: black;
+  background-color: inherit;
+  display: block;
+  margin: auto;
+  /*background-image: url("Human-process-stop.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 25px 25px;*/
+}
+button:hover {
+  border: 1px grey solid;
+}
+button:active {
+  border: 3px grey solid;
+}
